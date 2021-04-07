@@ -6,6 +6,7 @@ import { BookingSource } from './synced-types/impfterminspector/doctolib/types';
 import daysUntil from './synced-types/impfterminspector/util/daysUntil';
 import groupBy from 'lodash/groupBy';
 import meanBy from 'lodash/meanBy';
+import { notEmpty } from './notEmpty';
 
 const run = () => {
   const args = process.argv.slice(2);
@@ -26,10 +27,11 @@ const run = () => {
       bookingSource: BookingSource;
       url: string;
     };
-    response: {
+    response?: {
       next: string | null;
       data: Response;
     };
+    error?: Record<string, unknown>;
   };
 
   type InJson = {
@@ -97,8 +99,12 @@ const run = () => {
   const output = keys.map((key) => {
     const results = grouped[key];
 
-    const vaccinations = results.map(
-      (result): Vaccination => {
+    const vaccinations = results
+      .map((result): Vaccination | null => {
+        if (result.response == null) {
+          return null;
+        }
+
         return {
           days:
             result.response.next != null
@@ -110,8 +116,8 @@ const run = () => {
           ),
           insurance: result.source.bookingSource.insurance,
         };
-      }
-    );
+      })
+      .filter(notEmpty);
 
     const groupedVaccinations = groupBy(vaccinations, (vaccination) => {
       return [vaccination.type, vaccination.location, vaccination.insurance];
