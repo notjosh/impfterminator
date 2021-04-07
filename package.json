@@ -4,7 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.37",
     "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "sync": "yarn sync-types-from-impfterminspection; yarn sync-types-from-impfterminspector; yarn sync-utils-from-impfterminspector",
+    "sync-types-from-impfterminspection": "cp -R ../impfterminspection/src/types.ts ./src/synced-types/impfterminspection",
+    "sync-types-from-impfterminspector": "cp -R ../impfterminspector/src/doctolib ./src/synced-types/impfterminspector; cp -R ../impfterminspector/src/api/types.ts ./src/synced-types/impfterminspector/api",
+    "sync-utils-from-impfterminspector": "cp -R ../impfterminspector/src/util/date.ts ./src/synced-types/impfterminspector/util; cp -R ../impfterminspector/src/util/daysUntil.ts ./src/synced-types/impfterminspector/util"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
