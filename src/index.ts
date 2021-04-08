@@ -1,12 +1,17 @@
 import fs from 'fs';
 import Path from 'path';
-import { Vaccination } from './synced-types/impfterminspection/types';
+import {
+  Vaccination,
+  VaccinationLocation,
+  VaccinationType,
+} from './synced-types/impfterminspection/types';
 import { Response } from './synced-types/impfterminspector/api/types';
 import { BookingSource } from './synced-types/impfterminspector/doctolib/types';
 import daysUntil from './synced-types/impfterminspector/util/daysUntil';
 import groupBy from 'lodash/groupBy';
 import meanBy from 'lodash/meanBy';
 import { notEmpty } from './notEmpty';
+import { VaccinationType as VACCINATION_TYPE } from './synced-types/impfterminspector/doctolib/vaccination-types';
 
 const run = () => {
   const args = process.argv.slice(2);
@@ -62,23 +67,32 @@ const run = () => {
     return `${find('year')}-${find('month')}-${find('day')}`;
   };
 
-  const practiveId2location = (
-    id: string
-  ): 'arena' | 'messe' | 'tegel' | 'tempelhof' | 'velodrom' => {
+  const practiceId2location = (id: string): VaccinationLocation => {
     switch (id) {
       case '158431':
-        return 'arena';
+        return VaccinationLocation.Arena;
       case '158434':
-        return 'messe';
+        return VaccinationLocation.Messe;
       case '158436':
-        return 'tegel';
+        return VaccinationLocation.Tegel;
       case '158433':
-        return 'tempelhof';
+        return VaccinationLocation.Tempelhof;
       case '158435':
-        return 'velodrom';
+        return VaccinationLocation.Velodrom;
     }
 
     throw new Error(`unknown practice ID: ${id}`);
+  };
+
+  const vaccinationType2vaccinationType = (
+    type: VACCINATION_TYPE
+  ): VaccinationType => {
+    switch (type) {
+      case VACCINATION_TYPE.ASTRAZENECA:
+        return VaccinationType.Astrazeneca;
+      case VACCINATION_TYPE.BIONTECH_PFIZER:
+        return VaccinationType.BiontechPfizer;
+    }
   };
 
   const grouped = inJson.reduce((acc, value) => {
@@ -110,8 +124,10 @@ const run = () => {
             result.response.next != null
               ? daysUntil(result.response.next, new Date(key))
               : null,
-          type: result.source.bookingSource.vaccination,
-          location: practiveId2location(
+          type: vaccinationType2vaccinationType(
+            result.source.bookingSource.vaccination
+          ),
+          location: practiceId2location(
             result.source.bookingSource.site.doctolib.practiceId
           ),
           insurance: result.source.bookingSource.insurance,
