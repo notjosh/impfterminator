@@ -197,7 +197,7 @@ const run = () => {
     isWithinInterval(record.sampledAt, { start: anHourAgo, end: now })
   );
 
-  console.log(recent);
+  // console.log(recent);
   // console.log(grouped[]);
 
   const output: ChartSource = {
