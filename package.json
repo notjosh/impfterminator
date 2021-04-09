@@ -19,6 +19,7 @@
     "sync-utils-from-impfterminspector": "cp -R ../impfterminspector/src/util/date.ts ./src/synced-types/impfterminspector/util; cp -R ../impfterminspector/src/util/daysUntil.ts ./src/synced-types/impfterminspector/util"
   },
   "dependencies": {
+    "date-fns": "^2.20.0",
     "lodash": "^4.17.21"
   }
 }
