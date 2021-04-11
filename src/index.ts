@@ -201,6 +201,7 @@ const run = () => {
   // console.log(grouped[]);
 
   const output: ChartSource = {
+    updatedAt: new Date().toISOString(),
     current: calculateForRecords(recent, now),
     overall: calculate(Object.keys(grouped), grouped),
   };
