@@ -1,0 +1,491 @@
+{
+  "date": "2021-04-20T14:24:39.573Z",
+  "results": [
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Arena Berlin",
+            "doctolib": {
+              "practiceId": "158431",
+              "agendaIds": [
+                "397766",
+                "397800",
+                "397776",
+                "402408"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-06-26",
+        "data": {
+          "total": 0,
+          "availabilities": [
+            {
+              "date": "2021-04-20",
+              "slots": []
+            },
+            {
+              "date": "2021-04-21",
+              "slots": []
+            },
+            {
+              "date": "2021-04-22",
+              "slots": []
+            },
+            {
+              "date": "2021-04-23",
+              "slots": []
+            },
+            {
+              "date": "2021-04-24",
+              "slots": []
+            }
+          ],
+          "next_slot": "2021-06-26"
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Arena Berlin",
+            "doctolib": {
+              "practiceId": "158431",
+              "agendaIds": [
+                "397766",
+                "397800",
+                "397776",
+                "402408"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-06-26",
+        "data": {
+          "total": 0,
+          "availabilities": [
+            {
+              "date": "2021-04-20",
+              "slots": []
+            },
+            {
+              "date": "2021-04-21",
+              "slots": []
+            },
+            {
+              "date": "2021-04-22",
+              "slots": []
+            },
+            {
+              "date": "2021-04-23",
+              "slots": []
+            },
+            {
+              "date": "2021-04-24",
+              "slots": []
+            }
+          ],
+          "next_slot": "2021-06-26"
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Messe Berlin/ Halle 21",
+            "doctolib": {
+              "practiceId": "158434",
+              "agendaIds": [
+                "397845",
+                "397846",
+                "404659",
+                "397844"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=397845-397846-404659-397844&practice_ids=158434&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-06-27",
+        "data": {
+          "total": 0,
+          "availabilities": [
+            {
+              "date": "2021-04-20",
+              "slots": []
+            },
+            {
+              "date": "2021-04-21",
+              "slots": []
+            },
+            {
+              "date": "2021-04-22",
+              "slots": []
+            },
+            {
+              "date": "2021-04-23",
+              "slots": []
+            },
+            {
+              "date": "2021-04-24",
+              "slots": []
+            }
+          ],
+          "next_slot": "2021-06-27"
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Messe Berlin/ Halle 21",
+            "doctolib": {
+              "practiceId": "158434",
+              "agendaIds": [
+                "397845",
+                "397846",
+                "404659",
+                "397844"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=397845-397846-404659-397844&practice_ids=158434&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-06-27",
+        "data": {
+          "total": 0,
+          "availabilities": [
+            {
+              "date": "2021-04-20",
+              "slots": []
+            },
+            {
+              "date": "2021-04-21",
+              "slots": []
+            },
+            {
+              "date": "2021-04-22",
+              "slots": []
+            },
+            {
+              "date": "2021-04-23",
+              "slots": []
+            },
+            {
+              "date": "2021-04-24",
+              "slots": []
+            }
+          ],
+          "next_slot": "2021-06-27"
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "404656",
+                "397841",
+                "397843",
+                "397842"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-06-29",
+        "data": {
+          "total": 0,
+          "availabilities": [
+            {
+              "date": "2021-04-20",
+              "slots": []
+            },
+            {
+              "date": "2021-04-21",
+              "slots": []
+            },
+            {
+              "date": "2021-04-22",
+              "slots": []
+            },
+            {
+              "date": "2021-04-23",
+              "slots": []
+            },
+            {
+              "date": "2021-04-24",
+              "slots": []
+            }
+          ],
+          "next_slot": "2021-06-29"
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "404656",
+                "397841",
+                "397843",
+                "397842"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2597576&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 48969
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "404656",
+                "397841",
+                "397843",
+                "397842"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-06-29",
+        "data": {
+          "total": 0,
+          "availabilities": [
+            {
+              "date": "2021-04-20",
+              "slots": []
+            },
+            {
+              "date": "2021-04-21",
+              "slots": []
+            },
+            {
+              "date": "2021-04-22",
+              "slots": []
+            },
+            {
+              "date": "2021-04-23",
+              "slots": []
+            },
+            {
+              "date": "2021-04-24",
+              "slots": []
+            }
+          ],
+          "next_slot": "2021-06-29"
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "404656",
+                "397841",
+                "397843",
+                "397842"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2597576&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 48969
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Tempelhof/ Hangar 4",
+            "doctolib": {
+              "practiceId": "158433",
+              "agendaIds": [
+                "397955",
+                "397960",
+                "397956",
+                "404658"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2597576&agenda_ids=397955-397960-397956-404658&practice_ids=158433&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 4914
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Tempelhof/ Hangar 4",
+            "doctolib": {
+              "practiceId": "158433",
+              "agendaIds": [
+                "397955",
+                "397960",
+                "397956",
+                "404658"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2597576&agenda_ids=397955-397960-397956-404658&practice_ids=158433&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 4949
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Velodrom Berlin",
+            "doctolib": {
+              "practiceId": "158435",
+              "agendaIds": [
+                "397973",
+                "404654",
+                "397972",
+                "397974"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=397973-404654-397972-397974&practice_ids=158435&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 50248
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Velodrom Berlin",
+            "doctolib": {
+              "practiceId": "158435",
+              "agendaIds": [
+                "397973",
+                "404654",
+                "397972",
+                "397974"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-04-20&visit_motive_ids=2495719&agenda_ids=397973-404654-397972-397974&practice_ids=158435&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 50228
+        }
+      }
+    }
+  ]
+}
