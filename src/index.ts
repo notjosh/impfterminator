@@ -54,6 +54,8 @@ const practiceId2location = (id: string): VaccinationLocation => {
       return VaccinationLocation.Tempelhof;
     case '158435':
       return VaccinationLocation.Velodrom;
+    case '158437':
+      return VaccinationLocation.Eisstadion;
   }
 
   throw new Error(`unknown practice ID: ${id}`);
@@ -67,6 +69,8 @@ const vaccinationType2vaccinationType = (
       return VaccinationType.Astrazeneca;
     case VACCINATION_TYPE.BIONTECH_PFIZER:
       return VaccinationType.BiontechPfizer;
+    case VACCINATION_TYPE.MODERNA:
+      return VaccinationType.Moderna;
   }
 };
 
