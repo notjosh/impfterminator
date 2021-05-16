@@ -13,6 +13,7 @@
   "scripts": {
     "fetch": "rsync -avh --progress 161.35.217.134:./dev/impfterminspector/data/ ./data",
     "build": "./bin/run.sh data ../impfterminspection/src/chartData.json",
+    "buildy": "tsc -p .",
     "sync": "yarn sync-types-from-impfterminspection; yarn sync-types-from-impfterminspector; yarn sync-utils-from-impfterminspector",
     "sync-types-from-impfterminspection": "cp -R ../impfterminspection/src/types.ts ./src/synced-types/impfterminspection",
     "sync-types-from-impfterminspector": "cp -R ../impfterminspector/src/doctolib ./src/synced-types/impfterminspector; cp -R ../impfterminspector/src/api/types.ts ./src/synced-types/impfterminspector/api",
