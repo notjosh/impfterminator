@@ -1,0 +1,1708 @@
+{
+  "date": "2021-05-18T15:44:23.256Z",
+  "results": [
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Arena Berlin",
+            "doctolib": {
+              "practiceId": "158431",
+              "agendaIds": [
+                "397766",
+                "397800",
+                "397776",
+                "402408"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 74782
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Arena Berlin",
+            "doctolib": {
+              "practiceId": "158431",
+              "agendaIds": [
+                "397766",
+                "397800",
+                "397776",
+                "402408"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 74782
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Messe Berlin/ Halle 21",
+            "doctolib": {
+              "practiceId": "158434",
+              "agendaIds": [
+                "397844",
+                "397846",
+                "457504",
+                "397845",
+                "457511",
+                "457405",
+                "457406",
+                "457411",
+                "457415",
+                "457416",
+                "457418",
+                "457426",
+                "457436",
+                "457439",
+                "457443",
+                "457453",
+                "457477",
+                "457487",
+                "457497",
+                "404659",
+                "457400",
+                "457404",
+                "457407",
+                "457408",
+                "457409",
+                "457410",
+                "457412",
+                "457414",
+                "457419",
+                "457420",
+                "457421",
+                "457424",
+                "457425",
+                "457427",
+                "457428",
+                "457429",
+                "457430",
+                "457432",
+                "457435",
+                "457442",
+                "457448",
+                "457457",
+                "457463",
+                "457470",
+                "457483",
+                "457489",
+                "457493"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=397844-397846-457504-397845-457511-457405-457406-457411-457415-457416-457418-457426-457436-457439-457443-457453-457477-457487-457497-404659-457400-457404-457407-457408-457409-457410-457412-457414-457419-457420-457421-457424-457425-457427-457428-457429-457430-457432-457435-457442-457448-457457-457463-457470-457483-457489-457493&practice_ids=158434&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 71181
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Messe Berlin/ Halle 21",
+            "doctolib": {
+              "practiceId": "158434",
+              "agendaIds": [
+                "397844",
+                "397846",
+                "457504",
+                "397845",
+                "457511",
+                "457405",
+                "457406",
+                "457411",
+                "457415",
+                "457416",
+                "457418",
+                "457426",
+                "457436",
+                "457439",
+                "457443",
+                "457453",
+                "457477",
+                "457487",
+                "457497",
+                "404659",
+                "457400",
+                "457404",
+                "457407",
+                "457408",
+                "457409",
+                "457410",
+                "457412",
+                "457414",
+                "457419",
+                "457420",
+                "457421",
+                "457424",
+                "457425",
+                "457427",
+                "457428",
+                "457429",
+                "457430",
+                "457432",
+                "457435",
+                "457442",
+                "457448",
+                "457457",
+                "457463",
+                "457470",
+                "457483",
+                "457489",
+                "457493"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=397844-397846-457504-397845-457511-457405-457406-457411-457415-457416-457418-457426-457436-457439-457443-457453-457477-457487-457497-404659-457400-457404-457407-457408-457409-457410-457412-457414-457419-457420-457421-457424-457425-457427-457428-457429-457430-457432-457435-457442-457448-457457-457463-457470-457483-457489-457493&practice_ids=158434&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 71181
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "397843",
+                "457297",
+                "397841",
+                "397842",
+                "457512",
+                "457515",
+                "457460",
+                "457514",
+                "457363",
+                "457500",
+                "404656",
+                "457510",
+                "457513",
+                "457268",
+                "457285",
+                "457293",
+                "457324",
+                "457341",
+                "457250",
+                "457251",
+                "457252",
+                "457253",
+                "457254",
+                "457255",
+                "457256",
+                "457263",
+                "457264",
+                "457265",
+                "457266",
+                "457267",
+                "457271",
+                "457275",
+                "457276",
+                "457277",
+                "457279",
+                "457281",
+                "457282",
+                "457286",
+                "457287",
+                "457289",
+                "457290",
+                "457292",
+                "457294",
+                "457295",
+                "457300",
+                "457301",
+                "457303",
+                "457309",
+                "457317",
+                "457323",
+                "457326",
+                "457331",
+                "457333",
+                "457338",
+                "457343",
+                "457349",
+                "457358",
+                "457399",
+                "457413"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=397843-457297-397841-397842-457512-457515-457460-457514-457363-457500-404656-457510-457513-457268-457285-457293-457324-457341-457250-457251-457252-457253-457254-457255-457256-457263-457264-457265-457266-457267-457271-457275-457276-457277-457279-457281-457282-457286-457287-457289-457290-457292-457294-457295-457300-457301-457303-457309-457317-457323-457326-457331-457333-457338-457343-457349-457358-457399-457413&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 71046
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "397843",
+                "457297",
+                "397841",
+                "397842",
+                "457512",
+                "457515",
+                "457460",
+                "457514",
+                "457363",
+                "457500",
+                "404656",
+                "457510",
+                "457513",
+                "457268",
+                "457285",
+                "457293",
+                "457324",
+                "457341",
+                "457250",
+                "457251",
+                "457252",
+                "457253",
+                "457254",
+                "457255",
+                "457256",
+                "457263",
+                "457264",
+                "457265",
+                "457266",
+                "457267",
+                "457271",
+                "457275",
+                "457276",
+                "457277",
+                "457279",
+                "457281",
+                "457282",
+                "457286",
+                "457287",
+                "457289",
+                "457290",
+                "457292",
+                "457294",
+                "457295",
+                "457300",
+                "457301",
+                "457303",
+                "457309",
+                "457317",
+                "457323",
+                "457326",
+                "457331",
+                "457333",
+                "457338",
+                "457343",
+                "457349",
+                "457358",
+                "457399",
+                "457413"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2597576&agenda_ids=397843-457297-397841-397842-457512-457515-457460-457514-457363-457500-404656-457510-457513-457268-457285-457293-457324-457341-457250-457251-457252-457253-457254-457255-457256-457263-457264-457265-457266-457267-457271-457275-457276-457277-457279-457281-457282-457286-457287-457289-457290-457292-457294-457295-457300-457301-457303-457309-457317-457323-457326-457331-457333-457338-457343-457349-457358-457399-457413&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 71045
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "397843",
+                "457297",
+                "397841",
+                "397842",
+                "457512",
+                "457515",
+                "457460",
+                "457514",
+                "457363",
+                "457500",
+                "404656",
+                "457510",
+                "457513",
+                "457268",
+                "457285",
+                "457293",
+                "457324",
+                "457341",
+                "457250",
+                "457251",
+                "457252",
+                "457253",
+                "457254",
+                "457255",
+                "457256",
+                "457263",
+                "457264",
+                "457265",
+                "457266",
+                "457267",
+                "457271",
+                "457275",
+                "457276",
+                "457277",
+                "457279",
+                "457281",
+                "457282",
+                "457286",
+                "457287",
+                "457289",
+                "457290",
+                "457292",
+                "457294",
+                "457295",
+                "457300",
+                "457301",
+                "457303",
+                "457309",
+                "457317",
+                "457323",
+                "457326",
+                "457331",
+                "457333",
+                "457338",
+                "457343",
+                "457349",
+                "457358",
+                "457399",
+                "457413"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=397843-457297-397841-397842-457512-457515-457460-457514-457363-457500-404656-457510-457513-457268-457285-457293-457324-457341-457250-457251-457252-457253-457254-457255-457256-457263-457264-457265-457266-457267-457271-457275-457276-457277-457279-457281-457282-457286-457287-457289-457290-457292-457294-457295-457300-457301-457303-457309-457317-457323-457326-457331-457333-457338-457343-457349-457358-457399-457413&practice_ids=158436&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 71046
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "397843",
+                "457297",
+                "397841",
+                "397842",
+                "457512",
+                "457515",
+                "457460",
+                "457514",
+                "457363",
+                "457500",
+                "404656",
+                "457510",
+                "457513",
+                "457268",
+                "457285",
+                "457293",
+                "457324",
+                "457341",
+                "457250",
+                "457251",
+                "457252",
+                "457253",
+                "457254",
+                "457255",
+                "457256",
+                "457263",
+                "457264",
+                "457265",
+                "457266",
+                "457267",
+                "457271",
+                "457275",
+                "457276",
+                "457277",
+                "457279",
+                "457281",
+                "457282",
+                "457286",
+                "457287",
+                "457289",
+                "457290",
+                "457292",
+                "457294",
+                "457295",
+                "457300",
+                "457301",
+                "457303",
+                "457309",
+                "457317",
+                "457323",
+                "457326",
+                "457331",
+                "457333",
+                "457338",
+                "457343",
+                "457349",
+                "457358",
+                "457399",
+                "457413"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2597576&agenda_ids=397843-457297-397841-397842-457512-457515-457460-457514-457363-457500-404656-457510-457513-457268-457285-457293-457324-457341-457250-457251-457252-457253-457254-457255-457256-457263-457264-457265-457266-457267-457271-457275-457276-457277-457279-457281-457282-457286-457287-457289-457290-457292-457294-457295-457300-457301-457303-457309-457317-457323-457326-457331-457333-457338-457343-457349-457358-457399-457413&practice_ids=158436&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 71045
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Berlin-Tegel/ Terminal C",
+            "doctolib": {
+              "practiceId": "158436",
+              "agendaIds": [
+                "397843",
+                "457297",
+                "397841",
+                "397842",
+                "457512",
+                "457515",
+                "457460",
+                "457514",
+                "457363",
+                "457500",
+                "404656",
+                "457510",
+                "457513",
+                "457268",
+                "457285",
+                "457293",
+                "457324",
+                "457341",
+                "457250",
+                "457251",
+                "457252",
+                "457253",
+                "457254",
+                "457255",
+                "457256",
+                "457263",
+                "457264",
+                "457265",
+                "457266",
+                "457267",
+                "457271",
+                "457275",
+                "457276",
+                "457277",
+                "457279",
+                "457281",
+                "457282",
+                "457286",
+                "457287",
+                "457289",
+                "457290",
+                "457292",
+                "457294",
+                "457295",
+                "457300",
+                "457301",
+                "457303",
+                "457309",
+                "457317",
+                "457323",
+                "457326",
+                "457331",
+                "457333",
+                "457338",
+                "457343",
+                "457349",
+                "457358",
+                "457399",
+                "457413"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "moderna",
+          "override": {
+            "agendaIds": [
+              "465532",
+              "465526",
+              "465527",
+              "465534"
+            ]
+          }
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2537716&agenda_ids=465532-465526-465527-465534&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 3329
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Tempelhof/ Hangar 4",
+            "doctolib": {
+              "practiceId": "158433",
+              "agendaIds": [
+                "404658",
+                "397955",
+                "397960",
+                "397956"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2597576&agenda_ids=404658-397955-397960-397956&practice_ids=158433&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 18801
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Tempelhof/ Hangar 4",
+            "doctolib": {
+              "practiceId": "158433",
+              "agendaIds": [
+                "404658",
+                "397955",
+                "397960",
+                "397956"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "astrazeneca"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2597576&agenda_ids=404658-397955-397960-397956&practice_ids=158433&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 18801
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Flughafen Tempelhof/ Hangar 4",
+            "doctolib": {
+              "practiceId": "158433",
+              "agendaIds": [
+                "404658",
+                "397955",
+                "397960",
+                "397956"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "moderna",
+          "override": {
+            "agendaIds": [
+              "467901",
+              "467933",
+              "467893",
+              "467894",
+              "467897",
+              "467898",
+              "467899",
+              "467895",
+              "467896",
+              "467900",
+              "467908",
+              "467912",
+              "467903",
+              "467905",
+              "467906",
+              "467907",
+              "467910",
+              "467911",
+              "467934",
+              "467935",
+              "467936",
+              "467937",
+              "467938",
+              "467939",
+              "467940"
+            ]
+          }
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2537716&agenda_ids=467901-467933-467893-467894-467897-467898-467899-467895-467896-467900-467908-467912-467903-467905-467906-467907-467910-467911-467934-467935-467936-467937-467938-467939-467940&practice_ids=158433&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 5824
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Velodrom Berlin",
+            "doctolib": {
+              "practiceId": "158435",
+              "agendaIds": [
+                "457319",
+                "404654",
+                "457312",
+                "457215",
+                "397973",
+                "457206",
+                "457227",
+                "457204",
+                "457208",
+                "457229",
+                "457280",
+                "457296",
+                "397974",
+                "397972",
+                "457310",
+                "457210",
+                "457212",
+                "457213",
+                "457216",
+                "457218",
+                "457274",
+                "457278",
+                "457283",
+                "457288",
+                "457291",
+                "457299",
+                "457304",
+                "457306",
+                "457315",
+                "457321"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=457319-404654-457312-457215-397973-457206-457227-457204-457208-457229-457280-457296-397974-397972-457310-457210-457212-457213-457216-457218-457274-457278-457283-457288-457291-457299-457304-457306-457315-457321&practice_ids=158435&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 43312
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Velodrom Berlin",
+            "doctolib": {
+              "practiceId": "158435",
+              "agendaIds": [
+                "457319",
+                "404654",
+                "457312",
+                "457215",
+                "397973",
+                "457206",
+                "457227",
+                "457204",
+                "457208",
+                "457229",
+                "457280",
+                "457296",
+                "397974",
+                "397972",
+                "457310",
+                "457210",
+                "457212",
+                "457213",
+                "457216",
+                "457218",
+                "457274",
+                "457278",
+                "457283",
+                "457288",
+                "457291",
+                "457299",
+                "457304",
+                "457306",
+                "457315",
+                "457321"
+              ]
+            }
+          },
+          "insurance": "private",
+          "vaccination": "biontech_pfizer"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2495719&agenda_ids=457319-404654-457312-457215-397973-457206-457227-457204-457208-457229-457280-457296-397974-397972-457310-457210-457212-457213-457216-457218-457274-457278-457283-457288-457291-457299-457304-457306-457315-457321&practice_ids=158435&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": null,
+        "data": {
+          "availabilities": [],
+          "total": 0,
+          "reason": "no_availabilities",
+          "message": "Diese Termine stehen zu einem späteren Zeitpunkt wieder für eine Online-Buchung zur Verfügung. ",
+          "number_future_vaccinations": 43312
+        }
+      }
+    },
+    {
+      "source": {
+        "bookingSource": {
+          "site": {
+            "name": "Erika-Heß-Eisstadion",
+            "doctolib": {
+              "practiceId": "158437",
+              "agendaIds": [
+                "457956",
+                "457945",
+                "457946",
+                "457955",
+                "457943",
+                "457944",
+                "457953",
+                "457902",
+                "457920",
+                "457973",
+                "457959",
+                "457960",
+                "457961",
+                "457903",
+                "457906",
+                "457910",
+                "457936",
+                "457901",
+                "457913"
+              ]
+            }
+          },
+          "insurance": "public",
+          "vaccination": "moderna"
+        },
+        "url": "https://www.doctolib.de/availabilities.json?start_date=2021-05-18&visit_motive_ids=2537716&agenda_ids=457956-457945-457946-457955-457943-457944-457953-457902-457920-457973-457959-457960-457961-457903-457906-457910-457936-457901-457913&practice_ids=158437&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5"
+      },
+      "response": {
+        "next": "2021-05-18",
+        "data": {
+          "availabilities": [
+            {
+              "date": "2021-05-18",
+              "slots": [],
+              "substitution": null
+            },
+            {
+              "date": "2021-05-19",
+              "slots": [
+                {
+                  "agenda_id": 457955,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T09:30:00.000+02:00",
+                  "end_date": "2021-05-19T09:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457955,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T09:30:00.000+02:00",
+                      "end_date": "2021-05-19T09:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457956,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T10:00:00.000+02:00",
+                  "end_date": "2021-05-19T10:15:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457956,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T10:00:00.000+02:00",
+                      "end_date": "2021-05-19T10:15:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457903,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T10:15:00.000+02:00",
+                  "end_date": "2021-05-19T10:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457903,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T10:15:00.000+02:00",
+                      "end_date": "2021-05-19T10:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457913,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T11:15:00.000+02:00",
+                  "end_date": "2021-05-19T11:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457913,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T11:15:00.000+02:00",
+                      "end_date": "2021-05-19T11:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457903,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T11:30:00.000+02:00",
+                  "end_date": "2021-05-19T11:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457903,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T11:30:00.000+02:00",
+                      "end_date": "2021-05-19T11:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457943,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T11:45:00.000+02:00",
+                  "end_date": "2021-05-19T12:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457943,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T11:45:00.000+02:00",
+                      "end_date": "2021-05-19T12:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457920,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T12:00:00.000+02:00",
+                  "end_date": "2021-05-19T12:15:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457920,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T12:00:00.000+02:00",
+                      "end_date": "2021-05-19T12:15:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457902,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T12:15:00.000+02:00",
+                  "end_date": "2021-05-19T12:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457902,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T12:15:00.000+02:00",
+                      "end_date": "2021-05-19T12:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457913,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T12:30:00.000+02:00",
+                  "end_date": "2021-05-19T12:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457913,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T12:30:00.000+02:00",
+                      "end_date": "2021-05-19T12:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457936,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T12:45:00.000+02:00",
+                  "end_date": "2021-05-19T13:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457936,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T12:45:00.000+02:00",
+                      "end_date": "2021-05-19T13:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457901,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T13:15:00.000+02:00",
+                  "end_date": "2021-05-19T13:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457901,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T13:15:00.000+02:00",
+                      "end_date": "2021-05-19T13:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457955,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T13:30:00.000+02:00",
+                  "end_date": "2021-05-19T13:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457955,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T13:30:00.000+02:00",
+                      "end_date": "2021-05-19T13:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457959,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T14:00:00.000+02:00",
+                  "end_date": "2021-05-19T14:15:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457959,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T14:00:00.000+02:00",
+                      "end_date": "2021-05-19T14:15:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457936,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T14:45:00.000+02:00",
+                  "end_date": "2021-05-19T15:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457936,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T14:45:00.000+02:00",
+                      "end_date": "2021-05-19T15:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457920,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T15:15:00.000+02:00",
+                  "end_date": "2021-05-19T15:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457920,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T15:15:00.000+02:00",
+                      "end_date": "2021-05-19T15:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457913,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T15:30:00.000+02:00",
+                  "end_date": "2021-05-19T15:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457913,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T15:30:00.000+02:00",
+                      "end_date": "2021-05-19T15:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457901,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T15:45:00.000+02:00",
+                  "end_date": "2021-05-19T16:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457901,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T15:45:00.000+02:00",
+                      "end_date": "2021-05-19T16:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457913,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T16:15:00.000+02:00",
+                  "end_date": "2021-05-19T16:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457913,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T16:15:00.000+02:00",
+                      "end_date": "2021-05-19T16:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457936,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T16:30:00.000+02:00",
+                  "end_date": "2021-05-19T16:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457936,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T16:30:00.000+02:00",
+                      "end_date": "2021-05-19T16:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457903,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T17:00:00.000+02:00",
+                  "end_date": "2021-05-19T17:15:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457903,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T17:00:00.000+02:00",
+                      "end_date": "2021-05-19T17:15:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457946,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-19T17:15:00.000+02:00",
+                  "end_date": "2021-05-19T17:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457946,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-19T17:15:00.000+02:00",
+                      "end_date": "2021-05-19T17:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                }
+              ],
+              "substitution": null
+            },
+            {
+              "date": "2021-05-20",
+              "slots": [
+                {
+                  "agenda_id": 457920,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T09:30:00.000+02:00",
+                  "end_date": "2021-05-20T09:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457920,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T09:30:00.000+02:00",
+                      "end_date": "2021-05-20T09:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457902,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T09:45:00.000+02:00",
+                  "end_date": "2021-05-20T10:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457902,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T09:45:00.000+02:00",
+                      "end_date": "2021-05-20T10:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457953,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T10:30:00.000+02:00",
+                  "end_date": "2021-05-20T10:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457953,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T10:30:00.000+02:00",
+                      "end_date": "2021-05-20T10:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457955,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T11:00:00.000+02:00",
+                  "end_date": "2021-05-20T11:15:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457955,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T11:00:00.000+02:00",
+                      "end_date": "2021-05-20T11:15:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457973,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T11:30:00.000+02:00",
+                  "end_date": "2021-05-20T11:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457973,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T11:30:00.000+02:00",
+                      "end_date": "2021-05-20T11:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457913,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T11:45:00.000+02:00",
+                  "end_date": "2021-05-20T12:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457913,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T11:45:00.000+02:00",
+                      "end_date": "2021-05-20T12:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457902,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T12:15:00.000+02:00",
+                  "end_date": "2021-05-20T12:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457902,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T12:15:00.000+02:00",
+                      "end_date": "2021-05-20T12:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457960,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T12:30:00.000+02:00",
+                  "end_date": "2021-05-20T12:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457960,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T12:30:00.000+02:00",
+                      "end_date": "2021-05-20T12:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457901,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T12:45:00.000+02:00",
+                  "end_date": "2021-05-20T13:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457901,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T12:45:00.000+02:00",
+                      "end_date": "2021-05-20T13:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457960,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T13:00:00.000+02:00",
+                  "end_date": "2021-05-20T13:15:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457960,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T13:00:00.000+02:00",
+                      "end_date": "2021-05-20T13:15:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457901,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T13:15:00.000+02:00",
+                  "end_date": "2021-05-20T13:30:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457901,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T13:15:00.000+02:00",
+                      "end_date": "2021-05-20T13:30:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457945,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T14:30:00.000+02:00",
+                  "end_date": "2021-05-20T14:45:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457945,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T14:30:00.000+02:00",
+                      "end_date": "2021-05-20T14:45:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                },
+                {
+                  "agenda_id": 457953,
+                  "practitioner_agenda_id": null,
+                  "start_date": "2021-05-20T15:45:00.000+02:00",
+                  "end_date": "2021-05-20T16:00:00.000+02:00",
+                  "steps": [
+                    {
+                      "agenda_id": 457953,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-05-20T15:45:00.000+02:00",
+                      "end_date": "2021-05-20T16:00:00.000+02:00",
+                      "visit_motive_id": 2537716
+                    },
+                    {
+                      "agenda_id": 457961,
+                      "practitioner_agenda_id": null,
+                      "start_date": "2021-06-29T16:00:00.000+02:00",
+                      "end_date": "2021-06-29T16:15:00.000+02:00",
+                      "visit_motive_id": 2537717
+                    }
+                  ]
+                }
+              ],
+              "substitution": null
+            },
+            {
+              "date": "2021-05-21",
+              "slots": [],
+              "substitution": null
+            },
+            {
+              "date": "2021-05-22",
+              "slots": [],
+              "substitution": null
+            }
+          ],
+          "total": 34
+        }
+      }
+    }
+  ]
+}
