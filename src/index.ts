@@ -38,6 +38,14 @@ type InJson = {
   results: InJsonResult[];
 };
 
+type WorkingJsonResult = {
+  sampledAt: Date;
+  practiceId: VaccinationLocation;
+  insurance: InsuranceType;
+  vaccination: VaccinationType;
+  next: string | null;
+};
+
 const yyyymmdd = (date: Date): string => {
   return format(date, 'yyyy-MM-dd');
 };
@@ -75,43 +83,16 @@ const vaccinationType2vaccinationType = (
 };
 
 const calculateForRecords = (
-  results: InJsonResult[],
+  results: WorkingJsonResult[],
   fromDate: Date
 ): Vaccination[] => {
   const vaccinations = results
-    .map((result): Vaccination | null => {
-      if (result.response == null) {
-        return null;
-      }
-
-      // sometimes result.response.next has a date, but no slots are available. let's check the response for slots.
-      let next: string | null = result.response.next;
-
-      if (next != null) {
-        const { availabilities } = result.response.data;
-        const withSlots = availabilities.filter(
-          (availability) => availability.slots.length > 0
-        );
-
-        if (withSlots.length > 0) {
-          const slotNext = withSlots[0].date;
-          if (slotNext != null) {
-            next = slotNext;
-          }
-        }
-      }
-
-      return {
-        days: next != null ? daysUntil(next, fromDate) : null,
-        type: vaccinationType2vaccinationType(
-          result.source.bookingSource.vaccination
-        ),
-        location: practiceId2location(
-          result.source.bookingSource.site.doctolib.practiceId
-        ),
-        insurance: result.source.bookingSource.insurance,
-      };
-    })
+    .map((result): Vaccination | null => ({
+      days: result.next != null ? daysUntil(result.next, fromDate) : null,
+      type: result.vaccination,
+      location: result.practiceId,
+      insurance: result.insurance,
+    }))
     .filter(notEmpty);
 
   const groupedVaccinations = groupBy(vaccinations, (vaccination) => {
@@ -136,7 +117,10 @@ const calculateForRecords = (
   return averaged;
 };
 
-const calculate = (keys: string[], grouped: Record<string, InJsonResult[]>) => {
+const calculate = (
+  keys: string[],
+  grouped: Record<string, WorkingJsonResult[]>
+) => {
   return keys.map((key) => {
     const results = grouped[key];
 
@@ -171,20 +155,21 @@ const run = () => {
     .map((s) => Path.join(inDir, s));
   console.log(`found ${inFiles.length} source files`);
 
-  const inBlobs = inFiles.map((path) => fs.readFileSync(path, 'utf8'));
-  console.log(`read ${inBlobs.length} source files`);
+  const grouped: Record<string, WorkingJsonResult[]> = {};
 
-  const inJson: InJson[] = inBlobs.map((blob) => JSON.parse(blob));
-  console.log(`read & parsed ${inJson.length} source files`);
+  for (const path of inFiles) {
+    const blob = fs.readFileSync(path, 'utf8');
+    const json: InJson = JSON.parse(blob);
 
-  const grouped = inJson.reduce((acc, value) => {
-    const { date } = value;
-    let { results } = value;
+    const { date } = json;
+    let { results } = json;
 
     const dateObject = new Date(date);
     const dateString = yyyymmdd(dateObject);
 
-    const existing = acc[dateString] ?? [];
+    if (grouped[dateString] == null) {
+      grouped[dateString] = [];
+    }
 
     if (ONLY_PUBLIC) {
       results = results.filter(
@@ -193,16 +178,49 @@ const run = () => {
       );
     }
 
-    return {
-      ...acc,
-      [dateString]: [
-        ...existing,
-        ...results.map((result) => ({ ...result, sampledAt: dateObject })),
-      ],
-    };
-  }, {} as Record<string, InJsonResult[]>);
+    const next: WorkingJsonResult[] = results
+      .map((result) => {
+        if (result.response == null) {
+          return null;
+        }
+
+        // sometimes result.response.next has a date, but no slots are available. let's check the response for slots.
+        let next: string | null = result.response.next;
+
+        if (next != null) {
+          const { availabilities } = result.response.data;
+          const withSlots = availabilities.filter(
+            (availability) => availability.slots.length > 0
+          );
+
+          if (withSlots.length > 0) {
+            const slotNext = withSlots[0].date;
+            if (slotNext != null) {
+              next = slotNext;
+            }
+          }
+        }
+
+        return {
+          practiceId: practiceId2location(
+            result.source.bookingSource.site.doctolib.practiceId
+          ),
+          insurance: result.source.bookingSource.insurance,
+          vaccination: vaccinationType2vaccinationType(
+            result.source.bookingSource.vaccination
+          ),
+          next,
+          sampledAt: dateObject,
+        };
+      })
+      .filter(notEmpty);
+
+    grouped[dateString].push(...next);
+  }
 
   console.log(`grouped sources into ${Object.keys(grouped).length} buckets`);
+  // console.log(JSON.stringify(grouped, null, 2));
+  // process.exit(1);
 
   const now = new Date();
   const anHourAgo = sub(now, { hours: 1 });
