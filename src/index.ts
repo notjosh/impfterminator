@@ -157,6 +157,8 @@ const run = () => {
 
   const grouped: Record<string, WorkingJsonResult[]> = {};
 
+  let lastDateString: string | null = null;
+
   for (const path of inFiles) {
     const blob = fs.readFileSync(path, 'utf8');
     const json: InJson = JSON.parse(blob);
@@ -166,6 +168,15 @@ const run = () => {
 
     const dateObject = new Date(date);
     const dateString = yyyymmdd(dateObject);
+
+    if (dateString != lastDateString) {
+      if (lastDateString != null) {
+        const lastDateCount = (grouped[lastDateString] ?? []).length;
+        console.log(`iteration ${lastDateString}: ${lastDateCount}`);
+      }
+
+      lastDateString = dateString;
+    }
 
     if (grouped[dateString] == null) {
       grouped[dateString] = [];
