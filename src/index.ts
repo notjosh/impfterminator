@@ -163,12 +163,19 @@ const run = () => {
   const inDir = args[0];
   const outPath = args[1];
 
-  const inJson: InJson[] = fs
+  console.log(`inDir: ${inDir}, outPath: ${outPath}`);
+
+  const inFiles = fs
     .readdirSync(inDir)
     .filter((s) => s.endsWith('.json'))
-    .map((s) => Path.join(inDir, s))
-    .map((path) => fs.readFileSync(path, 'utf8'))
-    .map((blob) => JSON.parse(blob));
+    .map((s) => Path.join(inDir, s));
+  console.log(`found ${inFiles.length} source files`);
+
+  const inBlobs = inFiles.map((path) => fs.readFileSync(path, 'utf8'));
+  console.log(`read ${inBlobs.length} source files`);
+
+  const inJson: InJson[] = inBlobs.map((blob) => JSON.parse(blob));
+  console.log(`read & parsed ${inJson.length} source files`);
 
   const grouped = inJson.reduce((acc, value) => {
     const { date } = value;
@@ -194,6 +201,8 @@ const run = () => {
       ],
     };
   }, {} as Record<string, InJsonResult[]>);
+
+  console.log(`grouped sources into ${Object.keys(grouped).length} buckets`);
 
   const now = new Date();
   const anHourAgo = sub(now, { hours: 1 });
